@@ -2,34 +2,6 @@
   "id": {
     "cover": {
       "TESTE": ""
-    },
-    "content": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
-    },
-    "created_at": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "updated_at": {
-      "string": [
-        "one",
-        "two",
-        "three"
-      ]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "MIN": "2010-01-01T00:00:00Z",
-        "MAX": "2020-12-31T23:59:59Z"
-      }
     }
   }
 }
