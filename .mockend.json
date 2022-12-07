@@ -1,15 +1,10 @@
 {
-  "Post": {
-    "title": { "string": {} },
-    "ALFARROBITAS": { "string": {} },
-    "comments": {
-      "hasMany": "Comment"
+  "Journals": [
+    {
+      "Id": { "int": {} },
+      "Content": { "string": {} },
+      "CreatedAt": { "datetime": {} },
+      "UpdatedAt": { "datetime": {} }
     }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  ]
 }
