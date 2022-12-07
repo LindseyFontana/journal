@@ -1,7 +1,7 @@
 {
   "id": {
     "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+      "TESTE": ""
     },
     "content": {
       "loremWords": {
@@ -27,8 +27,8 @@
     },
     "createdAt": {
       "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
+        "MIN": "2010-01-01T00:00:00Z",
+        "MAX": "2020-12-31T23:59:59Z"
       }
     }
   }
