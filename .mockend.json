@@ -1,8 +1,8 @@
 {
-  "Journal": {
-    "Id": { "int": {} },
-    "Content": { "string": {} },
-    "CreatedAt": { "datetime": {} },
-    "UpdatedAt": { "datetime": {} }
+  "Journals": {
+    "id": { "int": {} },
+    "content": { "string": {} },
+    "createdAt": { "datetime": {} },
+    "updatedAt": { "datetime": {} }
   }
 }
