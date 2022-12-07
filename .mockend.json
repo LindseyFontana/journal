@@ -3,6 +3,6 @@
     "Id": { "int": {} },
     "Content": { "string": {} },
     "CreatedAt": { "datetime": {} },
-    "UpdatedAt": { "datetime": {} } } ]
+    "UpdatedAt": { "datetime": {} }
   }
 }
