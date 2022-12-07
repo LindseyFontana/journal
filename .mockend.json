@@ -1,6 +1,7 @@
 {
   "Post": {
     "title": { "string": {} },
+    "ALFARROBITAS": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
