@@ -1,8 +1,17 @@
 {
   "Journals": {
-    "id": { "int": {} },
+    "id": { "int": {
+      "min": 0,
+      "max": 10000
+    } },
     "content": { "string": {} },
-    "createdAt": { "datetime": {} },
-    "updatedAt": { "datetime": {} }
+    "createdAt": { "datetime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+    } },
+    "updatedAt": { "datetime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+    } }
   }
 }
