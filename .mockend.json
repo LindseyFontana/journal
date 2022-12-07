@@ -1,5 +1,5 @@
 {
-  "user": {
+  "User": {
     "likes": { "int": { "min": 0, "max": 1000000 } }
   },
   "Post": {},
