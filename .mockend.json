@@ -1,6 +1,9 @@
 {
-  "Post": {
-    "title": { "string": {} },
+  "Journals": {
+    "id": { "string": {} },
+    "content": { "string": {} },
+    "createdAt": { "string": {} },
+    "updatedAt": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
