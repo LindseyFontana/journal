@@ -3,7 +3,7 @@
     "id": { "string": {} },
     "content": { "string": {} },
     "createdAt": { "string": {} },
-    "updatedAt": { "string": {} }
+    "updatedAt": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
