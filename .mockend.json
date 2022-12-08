@@ -1,5 +1,5 @@
 {
-  "Diary": {
+  "Journal": {
     "id": { "string": {} },
     "content": { "string": {} },
     "createdAt": { "dateTime": {
