@@ -1,5 +1,5 @@
 {
-  "Journal": {
+  "Diary": {
     "id": { "string": {} },
     "content": { "string": {} },
     "createdAt": { "dateTime": {
@@ -17,7 +17,7 @@
   "Comment": {
     "body": { "string": {} },
     "post": {
-      "belongsTo": "Journal"
+      "belongsTo": "Diary"
     }
   }
 }
