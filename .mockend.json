@@ -1,6 +1,4 @@
 {
-  "Journals": {
-    "id": { "string": {} },
-    "content": { "string": {} }
-  }
+  "Post": {
+    "title": { "string": {} },
 }
