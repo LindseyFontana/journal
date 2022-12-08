@@ -1,9 +1,9 @@
 {
-  "Journals": {
+  "Post": {
     "id": { "string": {} },
     "content": { "string": {} },
     "createdAt": { "string": {} },
-    "updatedAt": { "string": {} },
+    "updatedAt": { "string": {} }
     "comments": {
       "hasMany": "Comment"
     }
@@ -11,7 +11,7 @@
   "Comment": {
     "body": { "string": {} },
     "post": {
-      "belongsTo": "Journals"
+      "belongsTo": "Post"
     }
   }
 }
