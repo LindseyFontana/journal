@@ -1,5 +1,5 @@
 {
-  "Post": {
+  "Journals": {
     "id": { "string": {} },
     "content": { "string": {} },
     "createdAt": { "dateTime": {
